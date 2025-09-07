@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Weather - Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="scene" id="scene">
+        <div class="sky" id="sky"></div>
+        <div class="sun" id="sun" aria-hidden="true"></div>
+        <div class="moon" id="moon" aria-hidden="true"></div>
+        <div class="stars" id="stars" aria-hidden="true"></div>
+        <div class="clouds" id="clouds" aria-hidden="true"></div>
+        <div class="hills" aria-hidden="true"></div>
+        <div class="tree" aria-hidden="true"></div>
+        <canvas id="fx"></canvas>
+        <div class="flash" id="flash"></div>
+        <div class="brand">Weather Play - Vanilla JS</div>
+        
+        <div class="hud" id="hud">
+            <button data-mode="sunny" class="active">Sunny</button>
+            <button data-mode="cloudy">Clouds</button>
+            <button data-mode="rain">Rain</button>
+            <button data-mode="snow">Snow</button>
+            <button data-mode="storm">Storm</button>
+            <button data-mode="windy">Windy</button>
+            <button data-mode="night">Night</button>
+            <button data-mode="auto">Auto</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
